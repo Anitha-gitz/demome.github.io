@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("img.webp") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#head{
+			margin-top:5px;
+			margin-bottom:10px;
+			margin-right:60px;
+			padding-bottom:15px;
+			background-color:white;
+			box-shadow: 0 0.5rem 1rem  black;
+			height:130px;
+			width:95%;
+			z-index:1;
+			top: 0;
+			overflow: hidden;
+			padding:20px;
+		}
+		#head #split_left{
+			float:left;
+			width:15%;
+		}
+		#head #split_right{
+			float:right;
+			width:85%;
+		}
+#head p{
+			font-size:20px;
+			color:black;
+			margin-top:2px;
+			margin-bottom:7px;
+			text-align:center;
+}
+#head #logo_img{
+			width:100px;
+			height:100px;
+			margin-left:50px;	
+			margin-right:10px;
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+    border: solid;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    top: 15px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.wrapper .btn {
+	
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+	
+}
+
+.wrapper .btn:hover{
+	background-color:deepskyblue;
+	color: white;
+}
+

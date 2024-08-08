@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+		body{
+			background: rgb(114,202,255);
+background: linear-gradient(90deg, rgba(114,202,255,1) 0%, rgba(255,255,255,1) 49%, rgba(122,205,248,1) 100%);
+		}
+		header #head{
+			margin-top:5px;
+			margin-bottom:10px;
+			padding-bottom:15px;
+			background-color:white;
+			box-shadow: 0 0.5rem 1rem  black;
+			height:110px;
+			
+			width:97%;
+			z-index:1;
+			top: 0;
+			overflow: hidden;
+			padding:20px;
+		}
+		#head #split_left{
+			float:left;
+			width:15%;
+		}
+		#head #split_right{
+			float:right;
+			width:85%;
+		}
+		header h1{
+			font-size:32px;
+			font-family:verdana;
+			padding:15px;
+			margin:5px;
+			color:dodgerblue;
+		}
+		#head p{
+			font-size:20px;
+			color:black;
+			margin-top:2px;
+			margin-bottom:7px;
+			text-align:center;
+		}
+		span{
+			color:#333;
+			font-size: 32px;
+			font-weight:bold;
+			margin-left:10px;
+		}
+		header li {
+			display:inline-block;
+			margin:35px;
+			font-family:serif;
+			font-size:22px;
+		} 
+		#menu li {
+			position: relative;
+			margin-right: 16px;
+			/* border: 1px solid black; */
+			float: left;
+			font-size: 20px;
+			}
+
+			#menu ul {
+			position: absolute;
+			top: 40px;
+			left: -1px;
+			width: 140px;
+			padding: 0;
+			
+		}
+
+			#menu ul li {
+			line-height: 15px;
+			float: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		header li a{
+			text-decoration:none;
+			cursor:pointer;
+			color:black;
+		}
+		header li a:hover{
+			font-size:21.5px;
+			color:dodgerblue;
+		}
+		#head #logo_img{
+			width:100px;
+			height:100px;
+			margin-left:50px;	
+			margin-right:10px;
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+
+		#menu{
+			margin-top: 20px;
+			font-size:80px;
+			padding: 50px;
+			
+		}
+		#Acadamic ol li{
+			display:inline-block;
+			font-family: serif;
+			font-size: 18px;
+		}
+
+		#about-us,#login{
+			display:inline-block;
+			font-family: serif;
+			font-size: 23px;
+			border:none;
+			background: transparent;
+		}
+		img{
+			width:780px;
+			height:450px;
+		}
+
+		select:hover{
+			font-size:23.5px;
+			color:dodgerblue;
+			cursor:pointer;
+		}
+
+		#Acadamic span{
+			color:deepskyblue;
+			font-size: 22px;
+			font-weight:bold;
+			margin-left:15px;
+		}
+		
+
+/*---------------------------------About us------------------------------------------*/
+	#aboutus #title{
+			box-shadow:0 .2rem 1rem black;
+			margin-top:60px;
+			background:white ;
+			color:deepskyblue;	
+			text-align:center;
+			font-size:25px;
+			font-family:sans-serif;
+			font-weight:bold;
+			padding:5px;
+		}
+		p{
+			margin-left: 80px;
+			margin-right: 80px;
+			margin-top: 20px;
+			font-family: comics;
+			font-size: 23px;
+		}
+
+/*---------------------------------registration-------------------------------------------*/
+		#register #title{
+			box-shadow:0 .2rem 1rem black;
+			margin-top:30px;
+			color:deepskyblue;	
+			text-align:center;
+			background:white ;
+			font-size:25px;
+			font-family:sans-serif;
+			font-weight:bold;
+			padding:5px;
+		}
+		#register fieldset{
+			border:1.5px solid black;
+			width:650px;
+			height:800px;
+			margin-left:320px;
+			box-shadow:0 0.5rem 1rem gray;
+			border-radius:10px;
+		}
+		#register legend{
+			font-family:sans serif;
+			font-size:22px;
+			color:deepskyblue;
+			font-weight:bold;
+			background:white;
+			margin:5px;
+			padding:5px;
+		}
+		#register form{
+			margin:25px;
+			font-family:arial;
+			font-size:18px;
+			/*color:black;*/
+			height:450px;
+		}
+		#register form label{
+			margin-bottom:10px;
+			padding:5px;
+			font-weight:bold;
+		}
+/*#name {color:aqua;}
+#phnno {color:aquamarine;}
+#dob {color:blueviolet;}
+#email {color:crimson;}
+#ug-name {color:brown;}
+#dept {color:coral;}
+#pay-mode {color: chartreuse;}*/
+
+		#register form input{
+			margin:5px;	
+			margin-bottom:10px;
+			padding:5px;
+			width:550px;
+			border:none;
+			border-bottom:1px solid gray;
+		}
+		#register form #submit{
+			margin-top:20px;	
+			margin-bottom:25px;	
+			margin-left:100px;
+			padding:5px;
+			width:350px;
+			cursor:pointer;
+			font-size:21px;
+			border:none;
+			border-radius:5px;
+			box-shadow:0 .5rem 2rem black;
+			background:white;
+			color:black;
+		}
+		#register form #submit:hover{
+			background:deepskyblue;
+			color:white;
+		}
+		#register form #checked-color{
+			margin-top:15px;	
+			margin-bottom:10px;
+			padding:5px;
+			width:12px;
+		}
+		#register form #car-color{
+			margin:5px;
+			padding:5px;
+		}	
+		#register form #payment{
+			margin-top:15px;	
+			margin-bottom:10px;
+			padding:5px;
+			width:12px;
+		}
+		#register form #select-payment{
+			margin:5px;
+			padding:5px;
+		}
+
+/*------------------------------------exam-section---------------------------------------*/
+	#exam-section #title{
+			box-shadow:0 .2rem 1rem black;
+			margin-top:30px;
+			color:deepskyblue;	
+			background:white ;
+			text-align:center;
+			font-size:25px;
+			font-family:sans-serif;
+			font-weight:bold;
+			padding:5px;
+		}
+		#exam-section table{
+			font-family:Helvetica;
+			border:2px solid #333;
+		}
+		#exam-section table tr{
+			border:.5px solid #333;
+			
+		}
+/*---------------------------------footer------------------------------------------*/
+
+
+	#footer #title{
+			box-shadow:0 .2rem 1rem black;
+			margin-top:30px;
+			color:deepskyblue;	
+			text-align:center;
+			background:white ;
+			font-size:25px;
+			font-family:sans-serif;
+			font-weight:bold;
+			padding:5px;
+		}
+		footer{
+			margin:15px;
+			background:lightskyblue;
+			color:black;
+			background: rgb(163,205,255);
+            background: linear-gradient(0deg, rgba(163,205,255,1) 0%, rgba(255,255,255,1) 78%); 
+			font-family:monospace;
+			font-size:16px;
+		}
+		#detail p{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		#contactus{
+			align-content: center;
+			margin:25px;
+			gap:.5rem;	
+			
+		}

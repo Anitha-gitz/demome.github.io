@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> form in html</title>
+</head>
+<body bgcolor=" #75DBEC">
+  <h3 id="title" align="center">UPLOAD CERTIFICATE</h3>
+<fieldset id="form-field" style="width:620px;height:900px; margin-left:300px; border:1.5px solid black;box-shadow:0 0.5rem 1rem gray;border-radius:10px; ">
+	 <legend><center> EVENTS PARTICIPATED </center></legend><br>
+	<form action="connectionphp.php" method="post" enctype="multipart/form-data">
+		<label> Enter your register number : </label><br>
+		<input type = "text" class="input" name ="regno" placeholder="regno eg:2023mca78"><br>
+		<label> Enter your full name : </label><br>
+		<input type = "text" class="input" name ="stuname" placeholder=" name eg:xxyyzz"><br>
+		<label> Enter your department : </label><br>
+		<input type = "text" class="input" name ="department" placeholder="department eg:B.com"><br>
+		<label id="dept">Choose your Department : </label> <br>
+		<input type="checkbox" id="check-box" name="year" value="1MCA">1MCA <br>
+		<input type="checkbox" id="check-box" name="year" value="2MCA">2MCA <br>
+		<label> Enter the college name you participated : </label><br>
+		<input type = "text" class="input" name ="parti_college" placeholder="college participated"><br>
+		<label> Enter the participated event : </label><br>
+		<input type = "text" class="input" name ="parti_event" placeholder="event name eg:quiz "><br>
+		<label> Enter the date : </label><br>
+		<input type = "date" class="input" name ="parti_date" placeholder="enter date" ><br><br>
+		<label>Enter your prize : </label><br>
+		<input type ="checkbox" id = "check-box" name="parti_prize" value = "Ist PRIZE "/>Ist PRIZE <br>
+		<input type ="checkbox" id = "check-box" name="parti_prize" value = "IInd PRIZE "/>IInd PRIZE <br>
+		<input type ="checkbox" id = "check-box" name="parti_prize" value = "IIIrd PRIZE "/>IIIrd PRIZE <br>
+		<input type ="checkbox" id = "check-box" name="parti_prize" value = "PARTICIPATION"/>PARTICIPATION<br><br>
+		<label for="photo">Upload your certificate :</label>
+		<input type="file" class="input" id="photo" name="parti_certificate" accept=".pdf" title="Upload PDF">
+		<br> <br>
+<button type="submit" id="submit" name="submit" onClick="fatima.html">SUBMIT</button> </form>
+
+<br>
+		</form>
+</fieldset>
+
+
+<!-- STYLE FOR CERTIFICATE UPLOADING FORM-->
+	<style>
+		
+		body{
+			background: rgb(114,202,255);
+            background: linear-gradient(90deg, rgba(114,202,255,1) 0%, rgba(255,255,255,1) 49%, rgba(122,205,248,1) 100%);
+		}
+		
+		#title{
+			box-shadow:0 .2rem 1rem black;
+			margin-top:30px;
+			color:deepskyblue;	
+			text-align:center;
+			background:white ;
+			font-size:25px;
+			font-family:sans-serif;
+			font-weight:bold;
+			padding:5px;
+		}
+		form{
+			margin-left:1000px;
+			margin:25px;
+			font-family:arial;
+			font-size:20px;
+			/*color:black;*/
+			height:450px;
+			width:500px;
+		}
+		form label{
+			margin-bottom:12px;
+			padding:5px;
+			font-weight:bold;
+			margin-top:30px;
+		}
+		form .input{
+			margin:5px;	
+			margin-bottom:10px;
+			padding:5px;
+			width:550px;
+			background:transparent;
+			font-size:18px;
+			border:none;
+			border-radius:10px;
+			border-bottom:1px solid gray;
+		}
+		form #submit{
+			margin-top:20px;	
+			margin-bottom:25px;	
+			margin-left:100px;
+			padding:5px;
+			width:350px;
+			cursor:pointer;
+			font-size:21px;
+			border:none;
+			border-radius:5px;
+			box-shadow:0 .5rem 2rem black;
+			background:white;
+			color:black;
+		}
+		form #submit:hover{
+			background:deepskyblue;
+			color:white;
+		}	
+		#form-field{
+			border:3px solid black;
+			width:700px;
+			height:600px;
+			margin-left:320px;
+			box-shadow:0 0.5rem 1rem gray;
+			border-radius:10px;
+		}
+			form #check-box{
+				margin-right:40px;
+				font-size:35px;
+			}
+
+</style>
+	
+</body>
+</html>
